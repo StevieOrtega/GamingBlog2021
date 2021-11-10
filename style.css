@@ -1,0 +1,62 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Styles */
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid peru;
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: aquamarine;
+  padding: 20px 20px;
+}
+
+nav {
+  font-size: 18px;
+}
+section {
+  background-color: red;
+}
+article {
+  background-color: green;
+}
+aside {
+  background-color: yellow;
+}
+footer {
+  background-color: thistle;
+}
+/* smaller elements */
+h1,
+h2,
+h3 {
+  color: peru;
+}
+h1 {
+  font-size: 62px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
