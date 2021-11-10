@@ -26,7 +26,7 @@ body {
 }
 
 .main-header {
-  background-color: aquamarine;
+  background-color: brown;
   padding: 20px 20px;
 }
 
@@ -59,4 +59,32 @@ h1 {
 h2 {
   font-size: 36px;
   margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* styling links */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: #cea;
+}
+a:hover {
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }
